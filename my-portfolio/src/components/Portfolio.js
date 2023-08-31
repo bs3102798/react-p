@@ -3,31 +3,31 @@ import React from 'react';
 const Portfolio = () => {
     const projects = [
         {
-            title: 'Project 1',
-            description: 'This is the description of Project 1.',
-            demoLink: 'https://project1-demo.com',
-            githubLink: 'https://github.com/yourusername/project1'
+            title: 'Note-taker-express',
+            description: 'Express',
+            demoLink: 'https://note-taker-express124-a5eb4acdd8bc.herokuapp.com/',
+            githubLink: 'https://github.com/bs3102798/note-taker-express'
         },
         {
-            title: 'Project 2',
-            description: 'This is the description of Project 2.',
-            demoLink: 'https://project2-demo.com',
-            githubLink: 'https://github.com/yourusername/project2'
+            title: 'Tech-blog',
+            description: 'bcryptjs, connect-session-sequelize, dotenv, express, express-handlebars, express-session, handlebars, mysql2, sequelize',
+            demoLink: 'https://bs3102798-tech-blog-d05f0f76899a.herokuapp.com/',
+            githubLink: 'https://github.com/bs3102798/Tech-blog'
         },
 
         {
-            title: 'Project 2',
-            description: 'This is the description of Project 2.',
+            title: 'SQL-Employee-Tracker',
+            description: 'dependencies, cfonts, chalk,console.table,inquirer, mysql2',
             demoLink: 'https://project2-demo.com',
-            githubLink: 'https://github.com/yourusername/project2'
+            githubLink: 'https://github.com/bs3102798/SQL-Employee-Tracker'
         },
         {
-            title: 'Project 2',
-            description: 'This is the description of Project 2.',
-            demoLink: 'https://project2-demo.com',
-            githubLink: 'https://github.com/yourusername/project2'
+            title: 'e-commerce store',
+            description: 'Materialize CSS,JSON,Sequelize,Handlebars',
+
+            githubLink: 'https://github.com/guapjorge/gababara'
         },
-        // Add more project objects as needed
+
     ];
 
     return (
