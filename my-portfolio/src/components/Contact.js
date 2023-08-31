@@ -33,19 +33,31 @@ const Contact = () => {
         <section id="contact">
             <h2>Contact</h2>
             <form onSubmit={handleSubmit}>
-                <label>
-                    Name:
-                    <input type="text" value={name} onChange={handleNameChange} />
-                </label>
-                <label>
-                    Email:
-                    <input type="email" value={email} onChange={handleEmailChange} />
-                </label>
-                <label>
-                    Comment:
-                    <textarea value={comment} onChange={handleCommentChange} />
-                </label>
-                <button type="submit">Submit</button>
+                <div>
+
+                    <label>
+                        Name:
+                        <input type="text" value={name} onChange={handleNameChange} />
+                    </label>
+                </div>
+                <div>
+
+                    <label>
+                        Email:
+                        <input type="email" value={email} onChange={handleEmailChange} />
+                    </label>
+                </div>
+                <div>
+
+                    <label>
+                        Comment:
+                        <textarea value={comment} onChange={handleCommentChange} />
+                    </label>
+                </div>
+                <div>
+
+                    <button type="submit">Submit</button>
+                </div>
             </form>
         </section>
     );
